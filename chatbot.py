@@ -9,4 +9,4 @@ completion = openai.Completion.create(model= "text-davinci-003",
     n=1,
     stop= None)
 response = completion.choices[0].text
-print(response)
+print("response is",response)
